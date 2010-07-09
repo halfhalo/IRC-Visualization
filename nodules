@@ -1,0 +1,16 @@
+#!/bin/sh
+# This is an example startup script. Simply edit the line below to provide
+# the correct path to the nodules.js file and put this script on your path. You 
+# can then start nodules from anywhere.
+
+# set the NODULES_PATH where downloaded modules are stored first
+export NODULES_PATH=~/src/modules/
+
+nodules=~/src/nodules.js
+
+if [ $1 = "-refresh" ]; then
+    node $nodules -refresh $2
+else
+    node $nodules $1
+fi
+# I also like to include --debug in the arguments for automatically running with listening for a debugger enabled.

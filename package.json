@@ -1,0 +1,17 @@
+{
+    "name": "wargames-new",
+	"mappings": {
+		"commonjs-utils": "jar:http://github.com/kriszyp/commonjs-utils/zipball/master!/lib/",
+		"colored": "jar:http://github.com/chrislloyd/colored.js/zipball/master!/lib/colored.js",
+		"socket-io": "jar:http://github.com/emilioastarita/Socket.IO-node/zipball/master!/lib/socket.io.js",
+		"oo":"jar:http://github.com/visionmedia/js-oo/zipball/master!/lib/oo.js",
+		"underscore":"jar:http://github.com/documentcloud/underscore/zipball/master!/underscore.js",
+		"persistence":"jar:http://github.com/creationix/node-persistence/zipball/master!/lib/persistence/plain.js",
+		"irc":"jar:http://github.com/halfhalo/Node.js-IRC/zipball/master!/irc.js"
+		
+		
+	},
+    "version": "0.1",
+    "description": "IRC Wargames webOS style",
+    "author": "Patrick Roberts"
+}
